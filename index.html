@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+!<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>English-Club</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -16,20 +16,735 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <!-- font  stsrts awesome  -->
+    <script src="https://kit.fontawesome.com/ecb4d0e7a3.js" crossorigin="anonymous"></script>
+    <!-- font  ends awesome  -->
+    <link rel="stylesheet" href="practice.css">
   </head>
   <body>
-    sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy
-    <!-- Bootstrap JavaScript Libraries -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-      crossorigin="anonymous"
-    ></script>
+    <div class="container">
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
-      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html>
+      <header class="row">
+        <nav>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                 <div class="container-fluid">
+                 <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#"><img class="img-fluid  max" src="images/logo.png" alt="">English club</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Deals</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Success </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About  </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link "
+                      href="#"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal"
+                      >Register</a
+                    >
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+            </div>
+                </nav>
+                <!-- Button trigger modalstart here -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <!-- form start here  -->
+
+         <form action="post">
+         <div class="form container">
+      <div class="row g-3">
+        <div class="col-4">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="First name"
+            aria-label="First name"/>
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Last name"
+            aria-label="Last name"
+          />
+        </div>
+      </div>
+      <form class="row g-3">
+               
+                         <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" />
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4" />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress"
+            placeholder="1234 Main St"
+          />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress2"
+            placeholder="Apartment, studio, or floor"
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity" />
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip" />
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" />
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+                </div>
+       
+         </form>
+
+       <!-- form end here  -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+   
+<!-- Button trigger modal end hare-->
+        </nav>
+         
+       
+        <!-- carousel start here  -->
+         <div class="slaider">
+          <div
+            id="carouselExampleDark"
+            class="carousel carousel-dark slide"
+            data-bs-ride="carousel"
+          >
+            <!-- <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div> -->
+            <div class="carousel-inner">
+              <div
+                class="carousel-item active align-content-center"
+                data-bs-interval="10000"
+              >
+                <img
+                  src="images/cover/cover-1.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="munna-carousel-text carousel-caption d-md-block">
+                  <h1 class="text-white fs-sm-5 fw-bolder ">
+                    Get Started Digital Learning
+                  </h1>
+                  <p class="text-white fs-sm-6 fw-normal">
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its
+                  </p>
+                  <button class="btn btn-primary">Get Started</button>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="images/cover/cover-2.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="munna-carousel-text carousel-caption">
+                  <h1 class="text-white fs-sm-5 fw-bolder ">
+                    Get Started Digital Learning
+                  </h1>
+                  <p class="text-white fs-sm-6 fw-normal">
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its
+                  </p>
+                  <button class="btn btn-primary">Get Started</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/cover/cover-3.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="munna-carousel-text carousel-caption text-center">
+                  <h1 class="text-white fs-sm-5 fw-bolder ">
+                    Get Started Digital Learning
+                  </h1>
+                  <p class="text-white fs-sm-6 fw-normal">
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its
+                  </p>
+                  <button class="btn btn-primary">Get Started</button>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!-- carousel end here  -->
+        
+      </header>
+      <main class="row">
+        <section class="cources  justify-content-center mt-5">
+                <div class="courses-text text-center">
+                        <h2>Discover Our Popular Courses</h2>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+                <div class="courses-cards  row row-cols-sm-1 gap-4 ">
+                                <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Fullstack Web Development</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.
+        </p>
+         <p class="card-text"><small class="fs-5 fw-bold text-primary">Price : 20$</small></p>
+      </div>
+                    </div>
+                  </div>
+                </div><div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.
+                        </p>
+                        <p class="card-text"><small class="fs-5 fw-bold text-primary">Price : 20$</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div><div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Photography Basic Rules</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                        < <p class="card-text"><small class="fs-5 fw-bold text-primary">Price : 20$</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div><div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Javascript Basic to advanced</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                         <p class="card-text"><small class="fs-5 fw-bold text-primary">Price : 20$</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div><div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Digital Marketing</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                         <p class="card-text"><small class="fs-5 fw-bold text-primary">Price : 22 $</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div><div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Motion Graphics</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                         <p class="card-text"><small class="fs-5 fw-bold text-primary">Price : 25$</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+        </section>
+        <!-- explore section start here  -->
+        
+        <section class="explore container row my-5">
+            <div class="col-md">
+              <img class="img-fluid rounded-2" src="images/working.png" alt="">
+            </div>
+            <div class="col-md d-flex flex-column justify-content-center text-wrap p-5 ">
+                <div class="">
+                    <h2 class="fs-1">
+                      Explore The elearning Institute
+                    </h2>
+                    <p class="fs-6">
+                      There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.
+                    </p>
+                </div>
+                <div class="d-flex gap-3 fs-4"">
+                  <div class="">
+                    <h3>3.2K+</h3>
+                      <p>Online Course</p>
+                  </div>
+                  <div>
+                    <h3>600+</h3>
+                      <p>Expert member </p>
+                  </div>
+                  <div>
+                    <h3>1k+</h3>
+                      <p >Rating & Review</p>
+                  </div>
+                </div>
+                <div>
+                  <button class="btn btn-primary fs-5"">Read More</button>
+                </div>
+            </div>
+            <div></div>
+        </section>
+        <!-- accordion starts here  -->
+
+         <section>
+      <div class="questions container text-center my-5">
+          <h1> 
+            Frequently Asked Questions
+          </h1>
+          <p>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+          </p>
+      </div>
+        <div class="container ">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header question-header" id="flush-headingOne">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+              what are the differences between flex and grid layout?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseOne"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Grid and flexbox The basic difference between CSS Grid Layout and
+              CSS Flexbox Layout is that flexbox was designed for layout in one
+              dimension - either a row or a column. Grid was designed for
+              two-dimensional layout - rows, and columns at the same time. The
+              two specifications share some common features, however, and if you
+              have already learned how to use flexbox, the similarities should
+              help you get to grips with Grid.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header question-header" id="flush-headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              what is the difference between Bootstrap and Tailwind CSS ?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Developers describe Bootstrap as "Simple and flexible HTML, CSS,
+              and JS for popular UI components and interactions". Bootstrap is
+              the most popular HTML, CSS, and JS framework for developing
+              responsive, mobile first projects on the web. On the other hand,
+              Tailwind CSS is detailed as "A utility-first CSS framework for
+              rapid UI development". Tailwind is different from frameworks like
+              Bootstrap, Foundation, or Bulma in that it's not a UI kit. It
+              doesn't have a default theme, and there are no build-in UI
+              components. It comes with a menu of predesigned widgets to build
+              your site with, but doesn't impose design decisions that are
+              difficult to undo. Bootstrap and Tailwind CSS can be categorized
+              as "Front-End Frameworks" tools. Some of the features offered by
+              Bootstrap are: Preprocessors: Bootstrap ships with vanilla CSS,
+              but its source code utilizes the two most popular CSS
+              preprocessors, Less and Sass. Quickly get started with precompiled
+              CSS or build on the source. One framework, every device: Bootstrap
+              easily and efficiently scales your websites and applications with
+              a single code base, from phones to tablets to desktops with CSS
+              media queries. Full of features: With Bootstrap, you get extensive
+              and beautiful documentation for common HTML elements, dozens of
+              custom HTML and CSS components, and awesome jQuery plugins. On the
+              other hand, Tailwind CSS provides the following key features: No
+              default theme No build-in UI components No opinion about how your
+              site should look "Responsiveness" is the primary reason why
+              developers consider Bootstrap over the competitors, whereas
+              "Highly customizable" was stated as the key factor in picking
+              Tailwind CSS. Bootstrap and Tailwind CSS are both open source
+              tools. Bootstrap with 134K GitHub stars and 66K forks on GitHub
+              appears to be more popular than Tailwind CSS with 12.9K GitHub
+              stars and 586 GitHub forks. Spotify, Twitter, and Lyft are some of
+              the popular companies that use Bootstrap, whereas Tailwind CSS is
+              used by BlaBlaCar, Exyplis, and Bazzite. Bootstrap has a broader
+              approval, being mentioned in 7046 company stacks & 1115 developers
+              stacks; compared to Tailwind CSS, which is listed in 11 company
+              stacks and 19 developer stacks.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header question-header" id="flush-headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree"
+              aria-expanded="false"
+              aria-controls="flush-collapseThree"
+            >
+             What is  CSS Box Model?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+
+
+              Every element that can be displayed on a web page is comprised of one or more rectangular boxes. CSS box model typically describes how these rectangular boxes are laid out on a web page. These boxes can have different properties and can interact with each other in different ways, but every box has a content area and optional surrounding padding, border, and margin areas. <br>
+              When laying out a document, the browser's rendering engine
+              represents each element as a rectangular box according to the
+              standard CSS basic box model. CSS determines the size, position,
+              and properties (color, background, border size, etc.) of these
+              boxes. Every box is composed of four parts (or areas), defined by
+              their respective edges: the content edge, padding edge, border
+              edge, and margin edge. CSS Box model Content area The content
+              area, bounded by the content edge, contains the "real" content of
+              the element, such as text, an image, or a video player. Its
+              dimensions are the content width (or content-box width) and the
+              content height (or content-box height). It often has a background
+              color or background image. If the box-sizing property is set to
+              content-box (default) and if the element is a block element, the
+              content area's size can be explicitly defined with the width,
+              min-width, max-width, height, min-height, and max-height
+              properties. Padding area The padding area, bounded by the padding
+              edge, extends the content area to include the element's padding.
+              Its dimensions are the padding-box width and the padding-box
+              height. The thickness of the padding is determined by the
+              padding-top, padding-right, padding-bottom, padding-left, and
+              shorthand padding properties. Border area The border area, bounded
+              by the border edge, extends the padding area to include the
+              element's borders. Its dimensions are the border-box width and the
+              border-box height. The thickness of the borders are determined by
+              the border-width and shorthand border properties. If the
+              box-sizing property is set to border-box, the border area's size
+              can be explicitly defined with the width, min-width, max-width,
+              height, min-height, and max-height properties. When there is a
+              background (background-color or background-image) set on a box, it
+              extends to the outer edge of the border (i.e. extends underneath
+              the border in z-ordering). This default behavior can be altered
+              with the background-clip CSS property. Margin area The margin
+              area, bounded by the margin edge, extends the border area to
+              include an empty area used to separate the element from its
+              neighbors. Its dimensions are the margin-box width and the
+              margin-box height. The size of the margin area is determined by
+              the margin-top, margin-right, margin-bottom, margin-left, and
+              shorthand margin properties. When margin collapsing occurs, the
+              margin area is not clearly defined since margins are shared
+              between boxes. Finally, note that for non-replaced inline
+              elements, the amount of space taken up (the contribution to the
+              height of the line) is determined by the line-height property,
+              even though the borders and padding are still displayed around the
+              content. See also
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header question-header" id="flush-headingfour">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapsefour"
+              aria-expanded="false"
+              aria-controls="flush-collapsefour"
+            >
+             what is semantic tag in html5?
+            </button>
+          </h2>
+          <div
+            id="flush-collapsefour"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingfour"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+             
+                      Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way.
+                    Elements such as <header>, <footer> and <article> are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.
+                    
+                    What are Semantic Elements?
+                    HTML was originally created as a markup language to describe documents on the early internet. As the internet grew and was adopted by more people, its needs changed.
+                    
+                    Where the internet was originally intended for sharing scientific documents, now people wanted to share other things as well. Very quickly, people started wanting to make the web look nicer.
+                    
+                    Because the web was not initially built to be designed, programmers used different hacks to get things laid out in different ways. Rather than using the <table></table> to describe information using a table, programmers would use them to position other elements on a page.
+                    
+                    As the use of visually designed layouts progressed, programmers started to use a generic “non-semantic” tag like <div>. They would often give these elements a class or id attribute to describe their purpose. For example, instead of <header> this was often written as <div class="header">.
+                    
+                    As HTML5 is still relatively new, this use of non-semantic elements is still very common on websites today.
+                    
+                    List of new semantic elements
+                    The semantic elements added in HTML5 are:
+                    
+               
+             </div>
+          </div>
+        </div>
+       </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header question-header" id="flush-headingfive">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapsefive"
+              aria-expanded="false"
+              aria-controls="flush-collapsefive"
+            >
+              Tailwind CSS vs. Bootstrap: Is It the Right Time To Switch?
+            </button>
+          </h2>
+          <div
+            id="flush-collapsefive"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingfive"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              The significant difference between Tailwind CSS and Bootstrap is
+              that Tailwind offers predesigned widgets to build a site from
+              scratch with fast UI development, while Bootstrap comes with a set
+              of pre-styled responsive, mobile-first components that possess a
+              definite UI kit. The main issue with Bootstrap is that developers
+              have to rely merely on specific abstracted patterns. It compels to
+              override the framework with custom CSS that utterly defeats the
+              purpose of using a framework in the first place. Sites created
+              using Bootstrap follow the generic pattern that makes them look
+              alike. Undoubtedly, it hampers the ability to incorporate
+              creativity effectively. Also, Bootstrap requires a 308.25kb file
+              size, including the main file, Bootstrap JS, Popper.js, and
+              jQuery.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header question-header" id="flush-headingsix">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapsesix"
+              aria-expanded="false"
+              aria-controls="flush-collapsesix"
+            >
+             what is figma and figma file?
+            </button>
+          </h2>
+          <div
+            id="flush-collapsesix"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingsix"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Figma: All you need to know
+                Figma is a collaborative interface design tool that’s taking the design world by storm. Unlike Sketch, which runs as a standalone macOS app, Figma is entirely browser-based and therefore works not only on Macs, but also on PCs running Windows or Linux, and even on Chromebooks. It also offers a web API, and it’s free!
+
+                figm
+                Figma
+                Another major benefit of Figma is that it enables real-time sharing on the same file. When using traditional offline applications such as Sketch and Photoshop, if designers want to share their work, they usually have to export it to an image file, and then send it via email or instant messaging.
+
+                In Figma, instead of exporting static images, we can simply share a link to the Figma file for clients and colleagues to open in their browsers. This in itself saves significant time and inconvenience in a designer’s workflow. But more importantly, it means that clients and colleagues can interact more richly with the work, and review the latest version of the file.
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+   </div>
+    </section>
+        <!-- accordion end here  -->
+        </main>
+        <footer class="container rounded-3 bg-dark mt-5 py-5 text-center text-white">
+           <div class="footer">
+              <h2 class="pb-3">
+                Pro Edu
+              </h2>
+              <p class="pb">Office 41, Zawaya Buildin, Ghala Muscat, 
+Sultanate of Oman</p>
+              <p class="pb-3">Privacy Ploicy  |   Terms of use</p>
+              <p class="mt-4 ">
+                 <i class="fa-brands fa-facebook p-2"></i>
+                 <i class="fa-brands fa-instagram p-2"></i>
+                 <i class="fa-brands fa-twitter p-2"></i>
+              </p>
+           </div>
+        </footer>
+        </div>
+            
+            
+                    <!-- Bootstrap JavaScript Libraries -->
+                    <script
+                      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+                      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+                      crossorigin="anonymous"
+                    ></script>
+            
+                    <script
+                      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+                      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+                      crossorigin="anonymous">
+                </script>
+         </body>
+  </html>
+          
